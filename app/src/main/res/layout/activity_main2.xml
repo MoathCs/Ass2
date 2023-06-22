@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_error"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycl"
+        android:layout_width="match_parent"
+        android:layout_height="578dp"
+        android:scrollbars="vertical"
+        tools:ignore="RedundantNamespace" />
+
+    <Button
+        android:id="@+id/ptnStart"
+        android:layout_width="327dp"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/material_dynamic_tertiary0"
+        android:text="START"
+        android:visibility="gone"
+        android:layout_margin="50dp"  />
+</LinearLayout>

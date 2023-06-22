@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AssignmentTowApp</string>
+    <string name="start">START</string>
+    <string name="equations">Equations</string>
+    <string name="formula_ax_b">formula: Ax+B</string>
+    <string name="formula_ax_2_bx_c">formula: Ax^2+Bx+C</string>
+    <string name="enter_a">Enter A</string>
+    <string name="enter_b">Enter B</string>
+    <string name="enter_c">Enter C</string>
+    <string name="calculate">Calculate</string>
+
+
+    <string-array name="TypeOFEq">
+        <item>linear equation</item>
+        <item>Quadratic equation</item>
+    </string-array>
+
+</resources>
